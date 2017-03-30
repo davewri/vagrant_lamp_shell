@@ -12,7 +12,7 @@ chkconfig --add httpd
 chkconfig httpd on
 service httpd stop
 
-rm -rf /car/www/html
+rm -rf /var/www/html
 ln -s /vagrant /var/www/html
 
 service httpd start
